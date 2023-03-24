@@ -1,8 +1,10 @@
 package com.example.dao;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-import com.example.entities.Empleado;
+import com.example.entities.Departamento;
 
-public interface DepartamentoDao extends JpaRepository<Empleado, Integer> {
+@Repository
+public interface DepartamentoDao extends JpaRepository<Departamento, Integer> {
     
 }

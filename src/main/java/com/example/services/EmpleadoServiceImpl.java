@@ -3,12 +3,14 @@ package com.example.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.example.dao.EmpleadoDao;
 import com.example.entities.Empleado;
 
 import jakarta.transaction.Transactional;
 
+@Service
 public class EmpleadoServiceImpl implements EmpleadoService {
 
     @Autowired

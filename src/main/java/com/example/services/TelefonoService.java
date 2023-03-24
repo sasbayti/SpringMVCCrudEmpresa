@@ -13,5 +13,5 @@ public interface TelefonoService {
     public void deleteById(int idTelefono);
     public void deleteByEmpleado(Empleado empleado);
    
-    public List<Telefono> findByEmpleado(Empleado empleado);
+   public List<Telefono> findByEmpleado(Empleado empleado);
 }
